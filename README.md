@@ -20,6 +20,6 @@ The objective of this project is to develop an augmented reality (AR) based smar
 
 The repo consists of Hand interaction app and the  required raspberrypi files.
 
-### 1.For Unity Setup Guidens Follow Unity_setup_readme.md [Unity_setup_readme](./Handinteraction/README.md)!
+### 1. For AWS & Raspberrypi Setup Guide, refer [Raspberrypi_README](./Raspberrypi_files/README.md)!
 
-### 1. For AWS & Raaspbery pi setup FOllow Raapberrypi_README.md [Raapberrypi_README](./Raspberrypi_files/README.md)!
+### 2. For Unity Setup Guide, refer [Unity_Setup_README](./Handinteraction/README.md)!
