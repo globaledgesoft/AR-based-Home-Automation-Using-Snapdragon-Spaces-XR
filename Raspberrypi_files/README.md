@@ -8,7 +8,7 @@ The objective of this project is to develop an augmented reality (AR) based smar
  
 ## Prerequisites 
 - Setup Raspberry-pi that connects with bulb and fan through relay as shown in below figure.<br><br>
-<img src="img/1.png" alt="Alt text" title="Optional title" width="700" height=400 >
+<img src="../img/1.png" alt="Alt text" title="Optional title" width="700" height=400 >
 
 - AWS thing credentials.  
 
@@ -20,7 +20,7 @@ The objective of this project is to develop an augmented reality (AR) based smar
 
     1.1 AWS ->  aws iot core -> All devices (on left side menu) -> Things -> Create Things (Top right corner) -> Create Single Thing 
 <br>
-<img src="img/2.1.png" alt="Alt text" title="Optional title" width="700" height=400>
+<img src="../img/2.1.png" alt="Alt text" title="Optional title" width="700" height=400>
 <br>
     
     1.2 Enter thing name and click next 
@@ -100,15 +100,15 @@ Data: - 
 
     8. Connect Bulb as shown in diagram where one of the supplies will directly connect with bulb and another will connect through the relay.
 
-<img src="img/3.jpg" alt="Alt text" title="Optional title" width="700" height=400>
-<img src="img/4.png" alt="Alt text" title="Optional title" width="700" height=400>
+<img src="../img/3.jpg" alt="Alt text" title="Optional title" width="700" height=400>
+<img src="../img/4.png" alt="Alt text" title="Optional title" width="700" height=400>
 
 
 - Setup Resource Access Management user for Access key and Secret key and for detailed setup please refer to https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html 
 
 - Note that the AWS IoT endpoint can be obtained in AWS IoT core console in settings section. AWS IoT Console >> Settings <br>
 
-<img src="img/2.2.png" alt="Alt text" title="Optional title" width="700" height=400>
+<img src="../img/2.2.png" alt="Alt text" title="Optional title" width="700" height=400>
 
 - Steps to prepare device with required python scripts. Download AR-smart-home.py, command_line_utils.py and Falcon_db.txt from the provided github source link and upload this file in raspberry pi (via USB) inside smart_home folder. Use the certs downloaded at step 1.6- 1.9. and Use Your AWS EndPoint.
  
@@ -126,5 +126,3 @@ This command is used to run a script on an edge device or platform, and the scri
 ```sh
 $ python3 AR-smart-home.py --endpoint < end point > --ca_file ~/ap_south_1_new_aws_cert/<root cirtificat> --cert ~/ap_south_1_new_aws_cert/ap_south_1_Room-1_RB5.cert.pem --key ~/ap_south_1_new_aws_cert/<private key> --client_id basicPubSub 
 ```
-
-
