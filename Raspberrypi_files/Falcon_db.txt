@@ -1,0 +1,1 @@
+{"location":"BT-Beacon_room1","devices":{"light":{"status":"on","ack":"true","err_msg":""},"fan":{"status":"on","ack":"true","err_msg":""}}}
